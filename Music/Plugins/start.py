@@ -29,15 +29,15 @@ pstart_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        f"➕ Summon {BOT_NAME} ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        f"🖤 ᴏᴡɴᴇʀ 🖤", url=f"https://t.me/cute_boy701")
                 ],[
                     InlineKeyboardButton(
-                        "📣 Channel", url="https://t.me/ahhsudahlahhh"), 
+                        "🌸 ɢʀᴏᴜᴘ 🌸", url="https://t.me/terayaarhoomai"), 
                     InlineKeyboardButton(
-                        "👥 Support", url="https://t.me/vieenasupport")
-                ],[
+                        "🦋 ᴄʜᴀɴɴᴇʟ 🦋", url="https://t.me/Maxopeditz")
+                ], 
                     InlineKeyboardButton(
-                        "❤️ Owner", url="https://t.me/zxcskyy")
+                        "❤️ ɢɪʀʟ ᴏᴡɴᴇʀ ❤️", url="https://t.me/Lucky_iz_mine")
                 ]
             ]
         ) 
@@ -89,11 +89,11 @@ async def play(_, message: Message):
 👍 **Likes:** `{x["like_count"]}`
 👎 **Dislikes:** `{x["dislike_count"]}`
 ⭐️ **Average Ratings:** {x["average_rating"]}
-🎥 **Channel Name:** {x["uploader"]}
+🦋 **Channel Name:** {x["uploader"]}
 📎 **Channel Link:** [Visit From Here]({x["channel_url"]})
 🔗 **Link:** [Link]({x["webpage_url"]})
 
-⚡️ __Searched Powered By Vieena Music Bot__"""
+⚡️ __Searched Powered By Lucky Music Bot__"""
             link = (x["webpage_url"])
             buttons = personal_markup(link)
             userid = message.from_user.id
