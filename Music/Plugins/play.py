@@ -424,7 +424,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo=thumb,
         reply_markup=InlineKeyboardMarkup(buttons),    
-        caption=(f"🎥 <b>__Playing:__</b>[{title[:25]}]({link}) \n⏳ <b>__Duration:__</b> {duration} \n👤 <b>__Requested by:__</b>{checking}")
+        caption=(f"🏷️ <b>__Name:__</b>[{title[:25]}]({link}) \n⏱ <b>__Duration:__</b> {duration} \n💡 <b>__Status:`playing`\n🎸 <b>__Requested by:__</b>{checking}")
     )   
         return await mystic.delete()
          
