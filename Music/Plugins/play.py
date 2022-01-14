@@ -623,7 +623,7 @@ async def popat(_,CallbackQuery):
     if i == 1:
         buttons = search_markup2(ID6, ID7, ID8, ID9, ID10, duration6, duration7, duration8, duration9, duration10 ,user_id, query)
         await CallbackQuery.edit_message_text(
-            f"6 <b>{title6}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ\n\n7 <b>{title7}</b>\n💡<u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ\n\n8 <b>{title8}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ\n\n9 <b>{title9}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ\n\n10 <b>{title10}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ",    
+            f"6 <b>{title6}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID6})__</u>\n Powered by ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ\n\n7 <b>{title7}</b>\n💡<u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID7})__</u>\n Powered by DevilxAngeLBot\n\n8 <b>{title8}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID8})__</u>\n Powered by DevilxAngeLBot\n\n9 <b>{title9}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID9})__</u>\n Powered by DevilxAngeLBot\n\n10 <b>{title10}</b>\n💡 <u>__[More Information](https://t.me/{BOT_USERNAME}?start=info_{ID10})__</u>\n Powered by DevilxAngeLBot",    
             reply_markup=InlineKeyboardMarkup(buttons),
             disable_web_page_preview=True
         )  
